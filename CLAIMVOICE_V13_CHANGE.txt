@@ -1,0 +1,20 @@
+ClaimVoice V13
+=============
+Purpose:
+- Preserve the existing V12 visual design and existing content.
+- Introduce a scalable content architecture so future articles do not clutter navigation.
+- Add ClaimVoice Library and Real Stories hubs.
+- Add five new modification/claim-risk guides:
+  1. CNG/LPG installation not endorsed in RC or policy
+  2. Two-wheeler on prohibited road/highway/expressway
+  3. Tyre & rim modifications
+  4. Aftermarket sunroof
+  5. Vehicle colour change
+- Reorganise navigation into Home / Claims / Learn / Real Stories / Documents.
+- Keep existing pages accessible through the Explore menu and internal links.
+- Reserve Real Stories for future customer stories and animated explainers.
+- Update sitemap and search index.
+
+Important:
+- New story pages are clearly educational/illustrative unless explicitly identified as documented customer material.
+- The articles avoid blanket statements that a modification or violation automatically invalidates every claim.

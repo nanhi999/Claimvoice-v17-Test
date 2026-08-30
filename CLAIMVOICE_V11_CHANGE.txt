@@ -1,0 +1,24 @@
+V11 CHANGE
+Added flagship guide: Why Can an Insurer Reject or Dispute a Motor Insurance Claim?
+The existing site, branding, navigation and other content are retained.
+The new guide covers:
+- aftermarket accessories
+- vehicle modifications
+- electrical fittings/wiring
+- engine/ECU changes
+- tyres/wheels/suspension/structural changes
+- CNG/LPG conversion
+- private car used as taxi/commercial use
+- hire/reward
+- racing/speed testing
+- overloading
+- licence/permit/compliance
+- drunk/drugged driving allegations
+- late intimation
+- previous damage
+- unauthorised repairs
+- inconsistent information
+- non-disclosure/misrepresentation
+- suspicious circumstances
+- missing documents
+It also explains that a listed circumstance does not automatically make every claim rejectable and gives a practical response checklist.

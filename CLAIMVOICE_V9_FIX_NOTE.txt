@@ -1,0 +1,8 @@
+CLAIMVOICE V9 — CRITICAL FIX
+
+The previous V8 package had a technical mistake: several pages did not load
+master-additions.css, so the new menu markup rendered as unstyled text.
+V9 fixes this by loading the shared CSS and JS on every HTML page and forcing
+the menu closed until the menu button is clicked.
+
+No redesign of the ClaimVoice visual identity was intended.

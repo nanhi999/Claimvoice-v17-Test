@@ -1,0 +1,62 @@
+CLAIMVOICE V15 FINAL UPDATE — GITHUB DEPLOYMENT GUIDE
+
+RECOMMENDED METHOD: UPDATE THE EXISTING claimvoice-v15 REPOSITORY; DO NOT CREATE A NEW REPOSITORY.
+
+WHY:
+The current public URLs and GitHub Pages custom-domain setup are already working. Updating files in the same repository preserves the existing URL structure and reduces unnecessary SEO disruption.
+
+BEFORE STARTING:
+1. Open the current GitHub repository: claimvoice-v15.
+2. Download a ZIP backup of the current repository (Code -> Download ZIP) and keep it on the PC.
+3. Do not delete old HTML pages merely because new pages have been added.
+
+OPTION A — GITHUB WEBSITE (BEST IF THE UPLOAD BUTTON WORKS)
+1. Open the claimvoice-v15 repository.
+2. Click Add file -> Upload files.
+3. Open this updated ZIP on the PC and enter the claimvoice_v15 folder.
+4. Upload the changed/new files while preserving their folder paths.
+5. When GitHub asks about replacing a file, allow the replacement for the updated files.
+6. Make sure the downloads folder contains the new PDF and TXT files.
+7. Commit changes to main with: ClaimVoice V15 final SEO/document update.
+8. Wait for GitHub Pages to redeploy.
+
+OPTION B — GITHUB DESKTOP (RECOMMENDED IF THE WEBSITE UPLOADER IS DIFFICULT)
+1. Clone the existing claimvoice-v15 repository with GitHub Desktop.
+2. Make a backup copy of the local repository folder.
+3. Copy the contents of this updated claimvoice_v15 folder into the local repository, allowing files to be replaced.
+4. Open GitHub Desktop and review Changes.
+5. Commit message: ClaimVoice V15 final SEO/document update.
+6. Commit to main.
+7. Push origin.
+8. Wait for Pages to deploy.
+
+DO NOT UPLOAD:
+- node_modules
+- .next
+- .env
+- .env.local
+These are not present in this static V15 package, but the rule should still be followed for any future local build.
+
+AFTER DEPLOYMENT:
+1. Open https://claimvoice.co.in/
+2. Open https://claimvoice.co.in/forms-downloads.html
+3. Open https://claimvoice.co.in/claim-documents-accident-theft.html
+4. Open https://claimvoice.co.in/contact-us.html
+5. Test each PDF download.
+6. Test search autocomplete on the home page and Documents page.
+7. Open https://claimvoice.co.in/sitemap.xml
+8. Open https://claimvoice.co.in/robots.txt
+9. Confirm the GitHub Pages custom domain and HTTPS remain active.
+
+IMPORTANT SEO RULE:
+Do not change existing public URLs, page filenames or canonical domains unless there is a specific redirect plan. The purpose of this update is to add depth and usability while retaining the existing ClaimVoice URL structure.
+
+GOOGLE SEARCH CONSOLE AFTER DEPLOYMENT:
+- Inspect the live homepage.
+- Inspect the new claim-documents-accident-theft.html page.
+- Inspect forms-downloads.html.
+- Submit/refresh the sitemap: https://claimvoice.co.in/sitemap.xml
+- Request indexing for the new pillar page and Forms & Downloads page if appropriate.
+
+FINAL SOCIAL STEP:
+Before publication, replace the Instagram and YouTube placeholders in contact-us.html and the homepage with the exact verified ClaimVoice accounts.

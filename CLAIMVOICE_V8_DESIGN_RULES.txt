@@ -1,0 +1,29 @@
+CLAIMVOICE V8 — VISUAL ORGANISATION RULES
+
+The existing ClaimVoice design is the master. V8 does NOT redesign the visual identity.
+
+HEADER
+• Logo on the left.
+• Only five primary navigation items: Home, Claim Guides, Policy Decoder, Documents, Real Stories.
+• One Share Experience button on the right.
+• One menu button on the right.
+• All secondary destinations live inside the menu, not scattered across the header.
+
+CONTENT
+• Do not add navigation buttons randomly inside paragraphs/cards.
+• Cards in the same row must have equal height.
+• Actions align at the same baseline.
+• Each page has a clear next-step area at the bottom.
+• One primary action per section wherever possible.
+• Do not duplicate Share Experience.
+
+INFORMATION ARCHITECTURE
+• Claim Types contains accident, theft, partial theft, fire, total loss, CTL, flood, vandalism etc.
+• Claim Problems contains rejection, delay, partial settlement, deductions, survey/investigation disputes etc.
+• Policy Decoder contains technical terms.
+• Documents contains checklists/examples.
+• Menu contains Forms, Grievance Contacts, Escalation, Modifications and other secondary destinations.
+• Search remains the quick route to any topic.
+
+GOAL
+A visitor should immediately understand where they are, where they can go next, and what to do—without the interface looking crowded.

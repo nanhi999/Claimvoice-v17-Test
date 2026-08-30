@@ -1,0 +1,12 @@
+CLAIMVOICE V7 — DESIGN CONTRACT
+
+1. Existing ClaimVoice visual identity is retained.
+2. No scattered buttons.
+3. Homepage uses one consistent action system and aligned cards.
+4. Each inner page has one structured action row at the bottom.
+5. Do not add floating buttons or duplicate Share/Explore CTAs.
+6. Cards have equal height and their actions align at the bottom.
+7. Navigation stays in the header; related navigation stays at the bottom.
+8. Content can grow without changing the visual hierarchy.
+9. New topics, including Aftermarket Accessories & Modifications, belong in the existing information architecture.
+10. Do not redesign the homepage merely to add a new article.

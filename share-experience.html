@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Share Your Motor Insurance Claim Experience — ClaimVoice</title>
+<meta content="Share your motor insurance claim rejection, delay, settlement or escalation experience with ClaimVoice. Help other policyholders learn from real claim journeys." name="description"/>
+<link href="styles.css" rel="stylesheet"/>
+<link href="master-additions.css" rel="stylesheet"/>
+<style>
+.share-wrap{padding:50px 6%;max-width:1050px;margin:auto}
+.share-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}
+.share-card{background:#fff;border:1px solid #e0e2e7;border-radius:12px;padding:24px}
+.share-card h2,.share-card h3{margin-top:0}
+.field{margin:14px 0}
+.field label{display:block;font-size:11px;font-weight:800;margin-bottom:7px}
+.field input,.field select,.field textarea{width:100%;box-sizing:border-box;border:1px solid #d8dbe3;border-radius:8px;padding:12px;font:inherit;font-size:12px;background:#fff}
+.field textarea{min-height:130px;resize:vertical}
+.submit{border:0;border-radius:8px;padding:13px 20px;background:#ed5b22;color:white;font-weight:800;cursor:pointer}
+.notice{margin-top:16px}
+@media(max-width:800px){.share-grid{grid-template-columns:1fr}.share-wrap{padding:35px 20px}}
+</style>
+<link href="https://claimvoice.co.in/share-experience.html" rel="canonical"/>
+<body>
+<header class="site-header cv-header">
+<a aria-label="ClaimVoice Home" class="brand cv-brand" href="index.html"><span class="brand-dark">CLAIM</span><span class="brand-orange">VOICE</span></a>
+<nav aria-label="Primary navigation" class="cv-main-nav">
+<a href="index.html">Home</a>
+<a href="what-happened.html">Claims</a>
+<a href="library.html">Learn</a>
+<a href="real-claim-stories/index.html">Real Stories</a>
+<a href="documents-library.html">Documents</a>
+</nav>
+<div class="cv-header-actions">
+<a class="share cv-share" href="share-experience.html">Share Experience</a>
+<button aria-expanded="false" aria-label="Open menu" class="menu cv-menu" id="cvMenuBtn">☰</button>
+</div>
+</header>
+<div aria-hidden="true" class="cv-menu-panel" id="cvMenuPanel">
+<div class="cv-menu-inner">
+<div class="cv-menu-title">Explore ClaimVoice</div>
+<div class="cv-menu-grid"><a href="why-motor-insurance-claims-get-rejected.html"><b>Why Claims Get Rejected</b><small>Complete practical guide</small></a><a href="second-hand-vehicle-14-day-insurance-claim.html"><b>Second-Hand Vehicle Claims</b><small>14-day issue explained</small></a><a href="partial-theft-insurance-claim.html"><b>Partial Theft</b><small>Parts stolen from a vehicle</small></a><a href="total-loss-ctl-motor-insurance.html"><b>Total Loss &amp; CTL</b><small>Understand settlement terms</small></a>
+<a href="what-happened.html"><b>Claims</b><small>Accident, theft, fire, flood, partial theft, total loss &amp; CTL</small></a>
+<a href="library.html"><b>ClaimVoice Library</b><small>Articles, guides, exclusions, policy issues and practical explainers</small></a>
+<a href="why-claims-rejected.html"><b>Why Claims Get Rejected</b><small>Common reasons for objections, rejection, deductions and disputes</small></a>
+<a href="modifications.html"><b>Vehicle Modifications</b><small>CNG/LPG, fog lights, tyres, sunroof, colour changes and more</small></a>
+<a href="claim-process.html"><b>Claim Journey</b><small>From intimation and survey to investigation and settlement</small></a>
+<a href="policy-decoder.html"><b>Policy Decoder</b><small>Simple explanations of difficult insurance terms</small></a>
+<a href="documents-library.html"><b>Documents</b><small>Checklists, examples, sample letters and evidence</small></a>
+<a href="forms-downloads.html"><b>Forms &amp; Downloads</b><small>Useful motor-claim and RTO forms</small></a>
+<a href="real-claim-stories/index.html"><b>Real Claim Stories</b><small>Customer-submitted experiences, claim problems and outcomes</small></a><a href="motor-insurance-news/index.html"><b>Motor Insurance News &amp; Updates</b><small>Court decisions, MACT cases, Ombudsman awards and important developments</small></a>
+<a href="share-experience.html"><b>Share Your Experience</b><small>Tell your story and help other policyholders learn</small></a>
+<a href="escalation.html"><b>Escalation &amp; Help</b><small>What to do when the claim remains unresolved</small></a>
+<a href="insurer-grievance-directory.html"><b>Grievance Contacts</b><small>Insurer grievance information</small></a>
+<a href="feedback.html"><b>Suggestions &amp; Feedback</b><small>Help us improve ClaimVoice</small></a>
+<a href="claim-check.html"><b>Check My Claim</b><small>Find the most relevant ClaimVoice starting point</small></a>
+<a href="contact-us.html"><b>Contact ClaimVoice</b><small>Email, website and social links</small></a>
+</div>
+</div>
+</div>
+<main class="share-wrap"><h1>Share Your Motor Insurance Claim Experience — ClaimVoice</h1>
+<div class="share-grid">
+<section class="share-card">
+<h2>Tell us what happened</h2>
+<form id="experienceForm">
+<div class="field"><label>Your name (optional)</label><input name="name" placeholder="You may use a first name or remain anonymous"/></div>
+<div class="field"><label>Claim situation</label>
+<select name="type" required="">
+<option value="">Select one</option>
+<option>Accident / Damage</option><option>Partial Theft</option><option>Total Loss / CTL</option>
+<option>Theft</option><option>Fire</option><option>Claim Rejected</option>
+<option>Claim Delayed</option><option>Partial Settlement / Deduction</option>
+<option>Investigation / Survey Dispute</option><option>Other</option>
+</select></div>
+<div class="field"><label>Insurance company (optional)</label><input name="insurer" placeholder="Company name"/></div>
+<div class="field"><label>What happened?</label><textarea name="story" placeholder="Tell us what happened, what the insurer said, what you did, whether you escalated and what the outcome was." required=""></textarea></div>
+<div class="field"><label>How was the matter resolved?</label><textarea name="outcome" placeholder="For example: paid after reconsideration, grievance, Ombudsman, court/consumer forum, still unresolved, etc."></textarea></div>
+<div class="field"><label>Email (optional, for follow-up)</label><input name="email" placeholder="Do not enter passwords, OTPs or banking credentials" type="email"/></div>
+<button class="submit" type="submit">Prepare My Experience</button>
+</form>
+<div class="notice" id="formMessage" style="display:none"></div>
+</section>
+<aside class="share-card">
+<h3>What makes a useful story?</h3>
+<ul>
+<li>What happened to the vehicle?</li>
+<li>When was the claim reported?</li>
+<li>What documents were submitted?</li>
+<li>What did the surveyor/investigator do?</li>
+<li>Why was the claim delayed, rejected or reduced?</li>
+<li>How did you respond?</li>
+<li>Did you escalate?</li>
+<li>What was the final outcome?</li>
+</ul>
+<div class="notice"><b>Privacy:</b> Never share OTPs, passwords, full bank/card details or unnecessary personal identification. ClaimVoice may edit or anonymise submissions before publication.</div>
+</aside>
+</div>
+<div class="cv-actions">
+<a class="cv-primary" href="stories.html">Read Real Stories →</a>
+<a class="cv-secondary" href="index.html">Back to Home</a>
+</div></main>
+<div class="cv-seo-links" style="max-width:1080px;margin:0 auto;padding:20px;color:#687182;font-size:12px;text-align:center"><a href="why-motor-insurance-claims-get-rejected.html">Why claims get rejected</a> · <a href="second-hand-vehicle-14-day-insurance-claim.html">Second-hand vehicle claims</a> · <a href="partial-theft-insurance-claim.html">Partial theft</a> · <a href="total-loss-ctl-motor-insurance.html">Total Loss &amp; CTL</a> · <a href="library.html">ClaimVoice Library</a></div><div class="cv-disclaimer"><strong>Disclaimer:</strong> ClaimVoice provides general motor-insurance claim awareness and educational information. Policy wording, claim facts, documents and applicable requirements can vary. Verify current requirements with the concerned insurer, Parivahan/RTO or other official authority. This information is not legal or professional advice.</div>
+<footer>
+<div class="free-strip">🔒   WE DON'T SELL INSURANCE POLICIES   •   NO CHARGES FOR CLAIM-RELATED HELP</div>
+<div class="footer-bottom">ClaimVoice is an information platform. Experiences are published as consumer experiences, not automatically as findings of wrongdoing.</div>
+</footer>
+<script>
+document.getElementById('experienceForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  const f = new FormData(this);
+  const subject = encodeURIComponent('ClaimVoice Experience — ' + (f.get('type') || 'Motor Insurance Claim'));
+  const body = encodeURIComponent(
+    'Name: ' + (f.get('name') || 'Anonymous') + '\n' +
+    'Claim situation: ' + f.get('type') + '\n' +
+    'Insurance company: ' + (f.get('insurer') || 'Not provided') + '\n\n' +
+    'What happened:\n' + f.get('story') + '\n\n' +
+    'Outcome:\n' + (f.get('outcome') || 'Not provided') + '\n\n' +
+    'Email: ' + (f.get('email') || 'Not provided')
+  );
+  window.location.href = 'mailto:experiences@claimvoice.in?subject=' + subject + '&body=' + body;
+  const m=document.getElementById('formMessage');
+  m.style.display='block';
+  m.innerHTML='<b>Your experience is ready to send.</b> Your email app should open with the details. If it does not, please use the form content manually or connect this page to ClaimVoice’s final submission inbox before publishing.';
+});
+</script>
+<script src="script.js"></script>
+</body>
+</head></html>

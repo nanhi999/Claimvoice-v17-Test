@@ -1,0 +1,13 @@
+ClaimVoice V16.1 cumulative update — 29 August 2026
+
+Built from ClaimVoice_V15_Final_Updated_SEO(1).zip.
+
+Added:
+- Vehicle Recovered After Theft article and SEO metadata/schema
+- Theft recovery card/internal links
+- Claim Check Yes/No recovered-vehicle interaction and security warning popup
+- Lock/ignition/security-system precaution wording without claiming a universal IRDAI lock-change mandate
+- Aftermarket invoice/job-card guidance and authorised-service-history guidance
+- Sitemap entry and search/autocomplete topic
+
+Preserved existing V15 pages, URLs, documents, forms, downloads and design.

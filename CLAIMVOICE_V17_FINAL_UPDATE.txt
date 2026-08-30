@@ -1,0 +1,14 @@
+CLAIMVOICE V17 — FINAL
+Base: ClaimVoice V16.1
+
+V17 preserves the V16.1 static site and adds:
+1. Separate Real Claim Stories section: /real-claim-stories/
+2. Separate Motor Insurance News & Updates section: /motor-insurance-news/
+3. Common ClaimVoice search/autocomplete with clear REAL STORY / NEWS & UPDATE labels.
+4. Two new original ClaimVoice news explainers:
+   - ₹33.6 Crore Motor Accident Compensation case
+   - Insurance Ombudsman motor claim award / used two-wheeler case
+5. Homepage entry cards for the two separate sections.
+6. New SEO-ready pages with canonical URLs, metadata and sitemap entries.
+
+Existing V16.1 files and content are retained.

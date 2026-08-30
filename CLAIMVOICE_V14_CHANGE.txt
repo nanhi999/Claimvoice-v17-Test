@@ -1,0 +1,18 @@
+CLAIMVOICE V14 — SEO + TRUST + SEARCH POLISH
+Date: 21 August 2026
+
+Changes:
+- Replaced generic NO FEES/NO CHARGES strip with clearer trust statement: "WE DON'T SELL INSURANCE POLICIES • NO CHARGES FOR CLAIM-RELATED HELP".
+- Added a homepage "Why is ClaimVoice free?" explanation.
+- Added self-referencing canonical URLs to every public HTML page.
+- Added/standardised meta descriptions, robots directives and Open Graph metadata.
+- Standardised sitemap URLs and lastmod date.
+- Rebuilt the JavaScript search index into one unified ClaimVoice topic index, removing overlapping V6/V13 search layers.
+- Preserved existing page URLs to avoid unnecessary indexing disruption.
+- Preserved robots.txt and sitemap location.
+
+Publishing note:
+Upload/replace files in place without changing existing public URLs. Do not delete indexed URLs. If any URL must change later, use a server-side 301/308 redirect from the old URL to the directly corresponding new page.
+
+Form note:
+Feedback and story forms currently use mailto-based submission. A proper form backend can be connected later without changing page URLs or SEO structure.

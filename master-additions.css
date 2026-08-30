@@ -1,0 +1,187 @@
+
+.page-wrap{padding:54px 6%;max-width:1250px;margin:auto}.page-hero{background:linear-gradient(115deg,#f6f7fc,#edf0fa);padding:58px 7%}.page-hero h1{font-size:50px;line-height:1.02;letter-spacing:-2px;margin:15px 0}.page-hero p{max-width:780px;color:#50596a;font-size:15px;line-height:1.65}.label{color:#ed5b22;font-size:11px;font-weight:800;letter-spacing:1.3px}.content-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:25px}.content-card{background:#fff;border:1px solid #e0e2e7;border-radius:12px;padding:22px}.content-card h3{margin-top:0}.content-card p,.content-card li{font-size:12px;color:#5d6675;line-height:1.65}.content-card a{color:#ed5b22;font-weight:800;font-size:12px}.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:22px}.flow span{background:#fff;border:1px solid #dddfe6;border-radius:20px;padding:9px 13px;font-size:11px;font-weight:800}.notice{margin-top:22px;padding:16px 18px;border-left:4px solid #ed5b22;background:#fff8f3;font-size:12px;color:#555f70}.check{background:#101a2e;color:#fff;padding:24px;border-radius:12px;margin-top:25px}.check h3{margin-top:0}.check p,.check li{font-size:11px;color:#d2d8e3;line-height:1.6}@media(max-width:800px){.page-wrap{padding:38px 22px}.page-hero{padding:45px 24px}.page-hero h1{font-size:39px}.content-grid{grid-template-columns:1fr}.flow{align-items:flex-start;flex-direction:column}.flow span{width:100%}}
+
+/* CLAIMVOICE V7 — ORDERED UI SYSTEM
+   Existing visual identity is retained. This layer only standardises spacing,
+   alignment, navigation and action placement. */
+:root{--cv-orange:#ed5b22;--cv-navy:#182747;--cv-border:#e1e4e9;--cv-soft:#f7f8fa}
+*{box-sizing:border-box}
+body{overflow-x:hidden}
+.site-header{display:flex;align-items:center;gap:20px;min-height:72px}
+.site-header nav{display:flex;align-items:center;justify-content:center;gap:4px;flex-wrap:wrap}
+.site-header nav a{white-space:nowrap}
+.page-wrap,.page-hero{max-width:1180px;margin-left:auto;margin-right:auto}
+.page-hero{padding-left:6%;padding-right:6%}
+.page-wrap{padding-left:6%;padding-right:6%;padding-bottom:55px}
+.notice,.check{border-radius:10px}
+.article-grid{align-items:start}
+.article-card,.check{height:auto}
+.card,.topic-grid>a,.resource-card{display:flex;flex-direction:column}
+.card .share,.card .btn,.card .go,.topic-grid>a span{margin-top:auto}
+.grid,.cards,.topic-grid,.story-grid,.resource-grid{align-items:stretch}
+.grid>* ,.cards>* ,.topic-grid>* ,.story-grid>* ,.resource-grid>*{height:100%}
+
+/* One consistent action row */
+.cv-actions{display:flex!important;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap;margin:28px 0 5px}
+.cv-actions a,.cv-actions button,.cv-action{display:inline-flex!important;align-items:center;justify-content:center;min-width:145px;height:38px;padding:0 16px;border-radius:7px;font-size:11px;font-weight:800;text-decoration:none;white-space:nowrap}
+.cv-primary{background:var(--cv-orange);color:#fff}
+.cv-secondary{background:#fff;color:var(--cv-navy);border:1px solid var(--cv-border)}
+.cv-actions a:hover{transform:none}
+
+/* Hide stray action links inside content blocks; their destinations are retained
+   in the structured bottom action row generated below. */
+.article-card>.share,.article-card>.btn,.article-card>.go,.check>.share{margin-top:12px}
+
+/* Consistent section spacing */
+main>section, .page-wrap>section{margin-bottom:24px}
+.page-wrap>h2{margin-top:32px;margin-bottom:12px}
+@media(max-width:800px){
+ .site-header{align-items:flex-start;flex-wrap:wrap}
+ .site-header nav{width:100%;justify-content:flex-start}
+ .cv-actions a,.cv-actions button,.cv-action{min-width:135px}
+}
+
+/* CLAIMVOICE V8 — COMPACT SYMMETRICAL HEADER
+   The original ClaimVoice visual identity stays intact; only navigation is organised. */
+.cv-header{
+  height:76px!important; min-height:76px!important; padding:0 5%!important;
+  display:grid!important; grid-template-columns:190px 1fr 190px!important;
+  align-items:center!important; gap:16px!important; position:sticky!important; top:0!important;
+  background:#fff!important; z-index:100!important;
+}
+.cv-brand{justify-self:start; white-space:nowrap}
+.cv-main-nav{
+  display:flex!important; justify-content:center!important; align-items:center!important;
+  gap:28px!important; flex-wrap:nowrap!important; min-width:0!important;
+}
+.cv-main-nav a{
+  font-size:12px!important; font-weight:700!important; white-space:nowrap!important;
+  color:#182747!important; padding:29px 0!important; border-bottom:3px solid transparent!important;
+}
+.cv-main-nav a:hover{color:#ed5b22!important}
+.cv-header-actions{
+  display:flex!important; justify-content:flex-end!important; align-items:center!important; gap:9px!important;
+}
+.cv-share{
+  padding:11px 17px!important; font-size:11px!important; white-space:nowrap!important;
+  border-radius:22px!important;
+}
+.cv-menu{display:flex!important; align-items:center!important; justify-content:center!important;
+  width:40px!important;height:40px!important;padding:0!important;cursor:pointer!important}
+.cv-menu-panel{
+  position:fixed; top:76px; left:0; right:0; background:#fff; border-top:1px solid #eee;
+  box-shadow:0 16px 35px #18274718; z-index:99; display:none;
+}
+.cv-menu-panel.open{display:block}
+.cv-menu-inner{max-width:1180px;margin:auto;padding:24px 5% 28px}
+.cv-menu-title{font-size:11px;text-transform:uppercase;letter-spacing:1.2px;color:#ed5b22;font-weight:800;margin-bottom:13px}
+.cv-menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.cv-menu-grid a{border:1px solid #e2e4e9;border-radius:10px;padding:13px 15px;display:flex;flex-direction:column;gap:4px;background:#fff}
+.cv-menu-grid a:hover{background:#f8f9fb;border-color:#ed5b22}
+.cv-menu-grid b{font-size:12px;color:#182747}
+.cv-menu-grid small{font-size:10px;color:#697080;line-height:1.45}
+@media(max-width:1050px){
+ .cv-header{grid-template-columns:165px 1fr 180px!important}
+ .cv-main-nav{gap:15px!important}
+ .cv-main-nav a{font-size:11px!important}
+}
+@media(max-width:820px){
+ .cv-header{grid-template-columns:1fr auto!important;height:68px!important;min-height:68px!important}
+ .cv-main-nav{display:none!important}
+ .cv-menu-panel{top:68px}
+ .cv-menu-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:520px){
+ .cv-header{padding:0 18px!important}
+ .cv-share{display:none!important}
+ .cv-menu-grid{grid-template-columns:1fr}
+}
+
+/* V9 SAFETY RESET — the menu must NEVER appear as raw text */
+.cv-menu-panel{display:none!important}
+.cv-menu-panel.open{display:block!important}
+.cv-menu-panel *{visibility:visible}
+.cv-menu-inner{font-family:inherit}
+.cv-menu-grid{display:grid!important}
+.cv-menu-grid a{text-decoration:none!important}
+.cv-header{position:relative!important}
+
+
+/* ClaimVoice V13 — organised content architecture */
+.cv-hub{max-width:1160px;margin:0 auto;padding:42px 6% 70px}
+.cv-hub-hero{text-align:center;max-width:820px;margin:0 auto 32px}
+.cv-hub-hero h1{color:#182747;margin:0 0 12px;font-size:32px}
+.cv-hub-hero p{color:#667080;line-height:1.75;font-size:13px}
+.cv-search{display:flex;gap:8px;max-width:760px;margin:24px auto}
+.cv-search input{flex:1;border:1px solid #d9dde5;border-radius:9px;padding:13px 15px;font:inherit;font-size:13px}
+.cv-search button{border:0;border-radius:9px;padding:13px 18px;background:#ed5b22;color:#fff;font-weight:800}
+.cv-section{margin-top:34px}
+.cv-section h2{color:#182747;font-size:21px;margin-bottom:7px}
+.cv-section>p{color:#687182;font-size:12px;line-height:1.65}
+.cv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px}
+.cv-card{background:#fff;border:1px solid #e1e4e9;border-radius:12px;padding:18px;text-decoration:none;display:flex;flex-direction:column;min-height:145px;box-shadow:0 1px 4px rgba(20,35,60,.03)}
+.cv-card:hover{border-color:#ed5b22;transform:translateY(-1px)}
+.cv-card .tag{font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:#ed5b22;font-weight:800;margin-bottom:9px}
+.cv-card h3{font-size:14px;color:#182747;margin:0 0 8px}
+.cv-card p{font-size:11px;line-height:1.55;color:#687182;margin:0 0 12px}
+.cv-card .arrow{margin-top:auto;color:#ed5b22;font-size:11px;font-weight:800}
+.cv-feature{border:1px solid #e6e8ed;border-radius:14px;background:#fbfcfd;padding:21px;margin-top:16px}
+.cv-feature h3{margin:0 0 7px;color:#182747}
+.cv-feature p{margin:0;color:#626c7d;font-size:12px;line-height:1.65}
+.cv-breadcrumb{max-width:1160px;margin:0 auto;padding:18px 6% 0;color:#7a8290;font-size:10px}
+.cv-breadcrumb a{color:#ed5b22;text-decoration:none}
+.cv-article{max-width:900px;margin:0 auto;padding:28px 6% 70px}
+.cv-article h1{font-size:30px;color:#182747;line-height:1.2;margin:10px 0 12px}
+.cv-article .lead{font-size:14px;color:#5d6675;line-height:1.75}
+.cv-article h2{font-size:21px;color:#182747;margin:34px 0 10px}
+.cv-article h3{font-size:15px;color:#263454;margin:24px 0 8px}
+.cv-article p,.cv-article li{font-size:12px;color:#5d6675;line-height:1.75}
+.cv-article ul{padding-left:20px}
+.cv-callout{background:#f7f8fb;border-left:4px solid #ed5b22;border-radius:10px;padding:16px 18px;margin:22px 0}
+.cv-callout strong{color:#182747}
+.cv-qa{border:1px solid #e2e5ea;border-radius:10px;padding:15px 17px;margin:10px 0;background:#fff}
+.cv-qa strong{display:block;color:#182747;margin-bottom:5px}
+.cv-meta{font-size:10px;color:#7b8491;margin-bottom:22px}
+.cv-related{margin-top:38px;border-top:1px solid #e5e7eb;padding-top:22px}
+.cv-related a{color:#ed5b22;text-decoration:none;font-weight:700}
+@media(max-width:850px){.cv-grid{grid-template-columns:1fr 1fr}.cv-hub-hero h1,.cv-article h1{font-size:27px}}
+@media(max-width:560px){.cv-grid{grid-template-columns:1fr}.cv-search{flex-direction:column}.cv-search button{width:100%}}
+
+
+/* CLAIMVOICE V15 FINAL UPDATE — readability, SEO UX and document centre */
+.site-header nav a{font-size:14px!important;line-height:1.2;padding:10px 4px}
+.cv-main-nav a{font-size:14px!important}
+.cv-brand{font-size:26px!important}
+.cv-header-actions .cv-share{font-size:13px!important}
+.cv-home-cards{max-width:1080px;margin:26px auto;padding:0 20px}
+.cv-home-cards-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.cv-home-card{display:block;background:#fff;border:1px solid #e1e4e9;border-radius:13px;padding:21px;text-decoration:none;min-height:185px;box-shadow:0 5px 18px #00000008}
+.cv-home-card .eyebrow{background:transparent;padding:0;box-shadow:none;color:#ed5b22;font-size:10px;font-weight:800;letter-spacing:1px}
+.cv-home-card h3{color:#182747;font-size:19px;line-height:1.25;margin:9px 0 8px}
+.cv-home-card p{color:#596273;font-size:13px;line-height:1.65;margin:0}
+.cv-home-card span{display:block;margin-top:12px;color:#ed5b22;font-size:12px;font-weight:800}
+.cv-contact-box{max-width:1080px;margin:26px auto;padding:0 20px}
+.cv-contact-inner{background:#f7f8fa;border:1px solid #e1e4e9;border-radius:14px;padding:22px}
+.cv-contact-inner h2{color:#182747;margin:0 0 8px}
+.cv-contact-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.cv-contact-links a,.cv-contact-links span{padding:10px 14px;border-radius:8px;background:#fff;border:1px solid #dfe3e9;font-size:12px;font-weight:800;color:#182747}
+.cv-contact-links a{color:#ed5b22}
+.cv-disclaimer{max-width:1080px;margin:22px auto;padding:14px 18px;background:#fffbea;border:1px solid #efdf9b;border-radius:10px;color:#5b5960;font-size:12px;line-height:1.65}
+.cv-disclaimer strong{color:#182747}
+.cv-download-badge{display:inline-block;padding:4px 7px;border-radius:5px;background:#edf6f0;color:#22734b;font-size:9px;font-weight:800;margin-left:5px}
+.cv-form-note{font-size:12px;color:#596273;line-height:1.7}
+.cv-seo-intro{max-width:920px;margin:12px auto 20px;padding:0 20px;color:#4b5565;font-size:16px;line-height:1.75}
+.cv-table-checklist{width:100%;border-collapse:collapse;margin:20px 0;font-size:13px}
+.cv-table-checklist th,.cv-table-checklist td{border:1px solid #dfe4ea;padding:11px;text-align:left;vertical-align:top}
+.cv-table-checklist th{background:#f3f5f7;color:#182747}
+@media(max-width:800px){
+ .site-header nav a,.cv-main-nav a{font-size:13px!important}
+ .cv-brand{font-size:22px!important}
+ .cv-home-cards-grid{grid-template-columns:1fr}
+ .cv-contact-links{display:grid;grid-template-columns:1fr}
+}
+
+/* ClaimVoice V16.1 — theft recovery interaction */
+.cv-recovery-check{margin:30px auto;padding:26px;border:1px solid #e6e8ed;border-radius:14px;background:#fff;max-width:980px;box-shadow:0 5px 20px rgba(0,0,0,.04)}
+.cv-recovery-options{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}.cv-recovery-btn{border:1px solid #d7dbe2;background:#fff;border-radius:9px;padding:13px 18px;font-weight:700;cursor:pointer}.cv-recovery-yes{border-color:#ed5b22;background:#ed5b22;color:#fff}
+.cv-modal[hidden]{display:none}.cv-modal{position:fixed;inset:0;z-index:1000}.cv-modal-backdrop{position:absolute;inset:0;background:rgba(10,18,30,.58)}.cv-modal-card{position:relative;max-width:650px;margin:8vh auto;padding:30px;background:#fff;border-radius:18px;box-shadow:0 20px 70px rgba(0,0,0,.28);z-index:2}.cv-modal-close{position:absolute;right:14px;top:10px;border:0;background:transparent;font-size:30px;cursor:pointer;color:#667085}.cv-modal-icon{font-size:32px}.cv-modal-card h2{margin:8px 35px 12px 0}.cv-modal-card p{line-height:1.65;color:#4f5868}.cv-modal-options{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}.cv-modal-options div{border:1px solid #e2e5ea;border-radius:10px;padding:15px}.cv-modal-options strong,.cv-modal-options span{display:block}.cv-modal-options span{margin-top:6px;color:#687182;font-size:13px;line-height:1.5}.cv-modal-note{font-size:12px!important;color:#687182!important}.cv-modal-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:18px}.cv-modal-actions button,.cv-modal-actions a{display:inline-block;text-decoration:none}.cv-modal-open{overflow:hidden}.cv-security-box{border-left:4px solid #ed5b22;background:#fff7f2;padding:18px;border-radius:8px}.cv-check-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.cv-check-grid div{background:#f7f8fa;border:1px solid #e5e7eb;padding:12px;border-radius:8px}@media(max-width:650px){.cv-modal-card{margin:4vh 14px;padding:24px}.cv-modal-options{grid-template-columns:1fr}.cv-check-grid{grid-template-columns:1fr}}

@@ -1,0 +1,29 @@
+CLAIMVOICE V15 FINAL UPDATE — 27 AUGUST 2026
+
+Implemented for claimvoice.co.in:
+1. Direct official Parivahan links for Forms 26, 28, 29 and 30, with official forms-page fallback.
+2. Direct downloadable ClaimVoice PDF templates.
+3. Completed Document Submission Cover Letter.
+4. Completed Claim Reconsideration Request.
+5. Completed Subrogation / I-Bond sample guidance.
+6. Replaced empty/weak forms route with a complete Forms & Downloads centre.
+7. Increased home/navigation readability.
+8. Added three high-value homepage SEO cards.
+9. Increased Home, Claims, Learn, Real Stories, Share Experience and Documents navigation font sizes.
+10. Unified autocomplete/search suggestions across ClaimVoice search boxes with keyword matching, Enter and Escape support.
+11. Added Contact ClaimVoice page and info@claimvoice.in. Social URLs are deliberately left as verified placeholders because no exact official handles were available.
+12. Added contextual/general disclaimers and template disclaimers.
+13. Added a dedicated SEO pillar page for approximate accident and theft claim documents.
+14. Added downloadable accident/theft checklist PDF.
+15. Updated sitemap and robots.txt for the live domain.
+
+SEO strategy:
+- Existing public URLs are retained.
+- New content is internally linked from the homepage/forms/documents areas.
+- Canonicals remain on claimvoice.co.in.
+- No indexed page should be deleted merely to make room for new content.
+- If a future URL must change, use a 301/308 redirect.
+
+Important publishing note:
+- The direct Parivahan PDF URLs should be tested after deployment. If Parivahan changes a PDF URL, use the official Parivahan Download Forms page as the fallback and update the link.
+- Do not publish invented social-media URLs; replace the placeholders with ClaimVoice's verified Instagram and YouTube URLs before final publication.

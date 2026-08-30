@@ -1,0 +1,8 @@
+CLAIMVOICE V12 CHANGE
+Added SEO-ready illustrative claim article:
+- aftermarket-fog-lights-insurance-claim.html
+- Added links from Why Claims Get Rejected and Accessories & Modifications
+- Added search indexing for the new article
+- Added sitemap.xml and robots.txt for crawl discovery
+- Preserved existing V11 design, pages, navigation and content
+- Article includes authoritative reference links, FAQ, internal links, metadata and disclaimer
